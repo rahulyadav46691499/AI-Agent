@@ -55,14 +55,14 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{
   "session_id": "user123",
-  "message": "I want to book a flight from New York to London for December 15th."
+  "message": "I want flights from Delhi to Mumbai for December 15th."
 }'
 ```
 
 ### Try Mid-Conversation Context Switching
 
 Send follow-up requests with the same `session_id` to switch context or ask constraints, e.g.,
-1. "Wait, I need a hotel in London first."
+1. "Wait, I need a hotel in Mumbai first."
 2. "Are there any hotels with free WiFi?"
-3. "Ok, I will go with Grand Plaza."
+3. "Ok, I will go with Taj Hotel."
 4. "Let's go back to the flight."
