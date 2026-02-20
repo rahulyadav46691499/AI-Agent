@@ -9,7 +9,7 @@ The AI assistant acts as a comprehensive travel agent guiding users seamlessly a
 ## Prerequisites
 
 - Python 3.10+
-- A Google API Key (`AIzaSyC2nfiDKQy3NnXVRitZyK0K7XZnNaHiHvQ` provided in `main.py` directly for assessment ease)
+- A Google Gemini API Key
 
 ## Installation
 
@@ -22,6 +22,12 @@ The AI assistant acts as a comprehensive travel agent guiding users seamlessly a
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+
+3. Setup your environment variables:
+   Create a `.env` file in the root directory and add your Google API key:
+   ```env
+   GOOGLE_API_KEY=your_gemini_api_key_here
    ```
 
 ## Running the Application
